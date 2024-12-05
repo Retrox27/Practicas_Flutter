@@ -12,8 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-      backgroundColor: const Color.fromARGB(255, 218, 125, 3),
-      title: const Text('maldito flutter'),
-    )));
+              backgroundColor: const Color.fromARGB(255, 218, 125, 3),
+              title: const Text('maldito flutter'),
+            ),
+            body: Container()));
   }
 }
